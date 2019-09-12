@@ -1,0 +1,72 @@
+
+html {
+    font-size: 10px;
+    background-color: black;
+}
+
+body {
+    width: auto;
+    height: 700px;
+    color: white;
+
+
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    color: black;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: white;
+    background-color: black;
+}
+
+.main {
+    margin-left: 160px;
+    padding: 0px 10px;
+}
+
+.changeName {
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 7px;
+    background-color: white;
+    color: black;
+}
+
+.changeName:hover {
+    opacity: 15%;
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    color: white;
+    left: 0;
+    bottom: 0;
+}
