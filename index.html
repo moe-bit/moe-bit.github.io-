@@ -8,29 +8,59 @@
 </head>
 <body>
 <div class="sidenav">
-    <a href="#">Main</a>
-    <a href="#">About</a>
-    <a href="#">Projects</a>
+    <a href="index.html">Main</a>
+    <a href="about/index.html">About</a>
+    <a href="projects/index.html" >Projects</a>
 </div>
 <div class="main">
     <h1>Meine erste Webseite</h1>
 
-    <h2>Ein bisschen Schreibarbeit</h2>
-    <p class="editor-note">Meine Katze ist <strong>sehr</strong> frech.</p>
-    <h2>Meine ersten Bilder</h2>
-    <p>Clicke um mehr zu sehen</p>
-    <img src="bilder/bilder-erde.jpg" alt="Mein Testbild">
-    <p class="erde-unterschrift">Das ist ein Bild der Erde.</p>
+    <h2>Herzlich Willkommen</h2>
+    <p class="editor-note"><strong>Ich</strong> heiße <strong>dich</strong> herzlich auf meiner kleinen Webseite Willkommen.</p>
+    <p>Ich hoffe du wirst die ein oder andere Inspiration finden. Klicke dich einfach durch!</p>
 
-    <h2>Was ich alles gelernt habe</h2>
-    <ul id="sprachen">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Java Script</li>
-        <li><a href="https://www.codecademy.com/learn">hier findet ihr noch mehr</a></li>
-    </ul>
-    <button class="changeName">Name ändern</button>
+
+
 </div>
+<div class="alpTours">
+    <h2>Eine Tour durch die Alpen!</h2>
+    <p>Ein paar Impressionen aus dem schönen Allgäu. Klicke einfach auf das Bild.</p>
+    <div class="slideshow-container">
+        <div class="mySlidesFade">
+            <img src="bilder/blick-hang.JPG" style="width: 100%">
+            <div class="text">Blick auf die Hänge</div>
+        </div>
+        <div class="mySlidesFade">
+            <img src="bilder/bergbahn.JPG" style="width: 100%">
+            <div class="text">Blick auf die Berbahn</div>
+        </div>
+        <div class="mySlidesFade">
+            <img src="bilder/blick-osten.JPG" style="width: 100%">
+            <div class="text">Blick in die Berge</div>
+        </div>
+        <div class="mySlidesFade">
+            <img src="bilder/blick-sueden.JPG" style="width: 100%">
+            <div class="text">Blick ins Vorland</div>
+        </div>
+        <div class="mySlidesFade">
+            <img src="bilder/gras.JPG" style="width: 100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+</div>
+<br>
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+
+</div>
+
+
 <div class="footer">
     <p>Alle Daten werden unseriös verarbeitet</p>
 </div>
