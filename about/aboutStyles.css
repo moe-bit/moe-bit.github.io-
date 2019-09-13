@@ -1,0 +1,15 @@
+.personalGreeting {
+    margin-left: 160px;
+}
+
+.learnings{
+    margin-left: 160px;
+    text-align: center;
+}
+
+ul.sprachen{
+    color: white;
+    list-style-type: square;
+    margin-left: 400px;
+
+}
